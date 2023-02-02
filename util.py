@@ -5,9 +5,9 @@ def read_files(dir, ftype="txt", verbose=True):
     import fitz
 
     prev_dir = os.getcwd()
-    print(f"changing cwd to {dir}")
+    if verbose: print(f"changing cwd to {dir}")
     os.chdir(dir) 
-    print(f"reading files...")
+    if verbose: print(f"reading files...")
     file_list = [ file_name for file_name in os.listdir(dir) 
                     if file_name[-len(ftype):] == ftype ]
     for file_name in file_list:
