@@ -1,4 +1,4 @@
-# pdf-tools
+# pdf-utils
 Extract text and images from PDF files
 
 ## How to use
