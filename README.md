@@ -10,7 +10,7 @@ Extract text and images from PDF files
 2. Put PDF files in 'pdf' folder
 3. run util.py
 
-## Run Options
+## Options
 * to extract text
 ```$ python utils.py text```
 * to extract images
