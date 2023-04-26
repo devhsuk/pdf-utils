@@ -1,6 +1,10 @@
 # pdf-utils
 Extract text and images from PDF files
 
+## Dependencies
+* PyMuPDF
+* Pillow
+
 ## How to use
 1. Create folders 'pdf' and 'out'
 2. Put PDF files in 'pdf' folder
