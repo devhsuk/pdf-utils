@@ -50,6 +50,9 @@ if __name__=="__main__":
     pdf_dir = os.path.join(os.getcwd(), "pdf")
     out_dir = os.path.join(os.getcwd(), "out")
     files = [ pdf for pdf in read_files(dir=pdf_dir, ftype="pdf") ]
-    read_images_from_pdf(files, out_dir)
+    if 'text' in argv:
+        read_text_from_pdf(files, out_dir)
+    if 'image' in argv:
+        read_images_from_pdf(files, out_dir)
 
     
