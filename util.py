@@ -1,5 +1,5 @@
 # UTILITIES
-import os, io
+import os, io, sys
 
 def read_files(dir, ftype="txt", verbose=True):
     import fitz
@@ -47,6 +47,7 @@ def read_text_from_pdf(files, out_dir, verbose=True):
 
 
 if __name__=="__main__":
+    argv = sys.argv
     pdf_dir = os.path.join(os.getcwd(), "pdf")
     out_dir = os.path.join(os.getcwd(), "out")
     files = [ pdf for pdf in read_files(dir=pdf_dir, ftype="pdf") ]
