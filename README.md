@@ -12,8 +12,8 @@ Extract text and images from PDF files
 
 ## Options
 * to extract text
-```$ python utils.py text```
+```$ python pdftools.py text```
 * to extract images
-```$ python utils.py image```
+```$ python pdftools.py image```
 * to extract both text and images
-```$ python utils.py text image```
+```$ python pdftools.py text image```
